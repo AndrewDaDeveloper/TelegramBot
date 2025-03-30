@@ -3,6 +3,7 @@ const fs = require("fs");
 const TelegramBot = require("node-telegram-bot-api");
 const { Together } = require("together-ai");
 const stringSimilarity = require("string-similarity");
+const keep_alive = rquire('./keep_alive.js')
 
 // ✅ Load JSON Data
 function loadBotData() {
